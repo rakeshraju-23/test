@@ -40,6 +40,7 @@ def main():
     print("Enter the repository URL, branch, and file path to fetch a file.")
 
     #repo_url = input("Enter the repository URL (e.g., https://github.com/owner/repo or https://github.qualcomm.com/owner/repo): ")
+    repo_url="https://github.qualcomm.com/ipatil/iDet"
     base_url = get_base_url_from_repo_url(repo_url)
     owner, repo = get_repo_info_from_url(repo_url)
     if not owner or not repo:
